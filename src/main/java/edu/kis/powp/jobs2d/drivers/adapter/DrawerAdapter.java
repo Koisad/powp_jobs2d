@@ -10,7 +10,7 @@ import edu.kis.powp.jobs2d.Job2dDriver;
  */
 public class DrawerAdapter implements Job2dDriver {
 
-    DrawPanelController drawPanelController;
+    private final DrawPanelController drawPanelController;
 
     private int startX = 0, startY = 0;
 
@@ -37,6 +37,6 @@ public class DrawerAdapter implements Job2dDriver {
 
 	@Override
 	public String toString() {
-		return "@Q!$!@$!#@$(*#@&Q(%^*#@";
+		return "Simulator";
 	}
 }
